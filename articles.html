@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alazetu - Creating For Music</title>
+    <meta name="description" content="A Music Technology Company. At Alazetu our focus is to innovate hardware and software products for everything music.">
+    <link rel="shortcut icon" href="https://www.asha.co.ke/musicnote.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/88210d7ac1.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="Navbar">
+        <div class="Navbar-Link Navbar-Link-toggle">
+            <i onClick="clickMenu()" class="fas fa-bars"></i>
+        </div>
+        <nav class="Navbar-Items">
+            <div class="Navbar-Link" id="Brand">
+                <a class="brand" href="/index.html">Alazetu</a>
+            </div>
+        </nav>
+        <nav class="Navbar-Items Navbar-Items--right">
+            <div class="Navbar-Link">
+                <a class="brand" href="/index.html">Home</a>
+            </div>
+            <div class="Navbar-Link">
+                <a class="brand" routerLink="/articles.html">Articles</a>
+            </div>
+        </nav>
+    </div>
+    <div class="hero-section">
+        <img src="/images/logo.png" alt="Music Note" title="Music Note">
+        <div class="container">
+            <h4>Everything Music</h4>
+            <p>At Alazetu our focus is to innovate hardware and software products for everything music.</p>
+            <p>Sign Up to get Alazetu product announcements, music articles, fun facts and music playing tips sent to your email.
+            </p>
+            <button type="button" class="btn btn-info" onclick="window.location.href='http://eepurl.com/gEdodX'">Sign
+                Up</button>
+        </div>
+    </div>
+    <div class="articles">
+        <div class="container">
+            <div class="row mb-4" id="row">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <form action="https://formspree.io/xzbeogkk" method="POST">
+
+                    <input type="text" name="name" placeholder="Fullname" class="form-control" required>
+
+                    <input type="email" name="name" placeholder="Email" class="form-control" required>
+
+                    <textarea name="name" placeholder="Message" class="form-control"></textarea>
+
+                    <button type="submit" class="btn btn-info">Send Message</button>
+                </form>
+            </div>
+            <div class="row">
+                <div class="social">
+                    <p>Find us on:</p><a href="https://www.instagram.com/alazetu/"><i
+                            class="fab fa-instagram fa-2x"></i></a>
+                    <hr>
+                    <p>Alazetu &copy; &nbsp; All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-firestore.js"></script>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
