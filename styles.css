@@ -96,6 +96,11 @@
     background-color: #ffff00;
     font-weight: 600;
     margin-bottom: 20px;
+    border: 0px;
+}
+
+.hero-section button:hover {
+    background-color: #521151;
 }
 
 .all {
