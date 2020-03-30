@@ -163,6 +163,7 @@
   background-color: #ffff00;
   border: 2px solid #ffff00;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .articles .container .btn:focus,
